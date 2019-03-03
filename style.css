@@ -10,7 +10,7 @@ body {
 .main {
     padding: 10px;
     text-align: center;
-    margin-top: 70px;    
+    margin-top: 25px;    
     display: flex;
 }
 
@@ -25,6 +25,21 @@ form {
 
 .form-group {
     display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    font-family: inherit;
+    padding: 3px;
+}
+
+.tag {
+    color: grey;
+    font-weight: bold;
+    font-family: inherit;
+    padding: 3px;
+    font-size: 25px;
 }
 
 .form-control {

@@ -13,18 +13,28 @@
     <div class="main">
         <form class="contact-form" action="" method="POST">
             <div class="form-group">
-                <input type="text" class="form-control" name="name" placeholder="Name">
+                <p class="tag" id="tag">IEEE Jamia Hamdard Student Branch</p>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" name="email" placeholder="Email">
+                <p class="error" id="error">Error</p>
             </div>
             <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" cols="16" placeholder="Enter Your Message..."></textarea>
+                <input type="text" id="name" class="form-control" name="name" placeholder="Name">
             </div>
             <div class="form-group">
-                <button type="submit">Submit</button>
+                <input type="text" id="email" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" id="phone" class="form-control" name="phone" maxlength="10" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="message" name="message" rows="5" cols="16"  placeholder="Enter Your Message..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="button">Submit</button>
             </div>
         </form>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
