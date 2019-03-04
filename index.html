@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <link rel="stylesheet" href="/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="main">
+        <form name="ContactForm" class="contact-form" action="https://formspree.io/imrancrazy200@gmail.com" method="POST">
+            <div class="form-group">
+                <p class="tag" id="tag">IEEE Jamia Hamdard Student Branch</p>
+            </div>
+            <div class="form-group">
+                <p class="error" id="error">Error</p>
+            </div>
+            <div class="form-group">
+                <input type="text" id="name" class="form-control" name="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="text" id="email" class="form-control" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" id="phone" class="form-control" name="phone" maxlength="10" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="message" name="message" rows="5" cols="16"  placeholder="Enter Your Message..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
